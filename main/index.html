@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>portfolio</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script>
+        $(document).on('click', 'a[href^="#"]', function (event) {
+            event.preventDefault();
+
+            $('html, body').animate({
+                scrollTop: $($.attr(this, 'href')).offset().top
+            }, 700);
+        });
+    </script>
+</head>
+
+<body>
+    <a href="#top" class="up"></a>
+    <nav id="top">
+        <ul>
+            <li>
+                <a href="#meg">about me</a>
+            </li>
+            <li>
+                <a href="#jobs">projects</a>
+            </li>
+            <li>
+                <a href="#me">connect me</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="about" id="meg">
+        <div class="img">
+            <div class="myimage"></div>
+        </div>
+        <div class="text">
+            <h2>vakhtang svanidze</h2>
+            <p>I am a front-end developer. in Information Technology from Telavi Iakob Gogebashvili State University and 4 years
+                of it experience.
+                <br>
+                <br> am experienced in the digital art, modeling and web development with Adobe technologies using photoshop,
+                illustrator. I have designed and developed fonts. I know CSS, Javascript HTML.
+                <br>
+                <br> When working on a new project, I like to speak with my clients so that I can have a clear understanding
+                of their needs and vision of the project. Thank you in advance for your time and consideration. I look forward
+                to working with you soon.</p>
+
+            <a href="" download="./main.css">
+                <button download="">download Resume</button>
+            </a>
+        </div>
+    </div>
+    <div class="jobs" id="jobs">
+        <h2>codpen</h2>
+        <ul>
+            <li>
+                <a href="https://codepen.io/vaxosv/pen/oepjRY" target="_blank">
+                    <div class="b1"></div>
+                </a>
+            </li>
+            <li>
+                <a href="https://codepen.io/vaxosv/pen/QmWKJx" target="_blank">
+                    <div class="b2"></div>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <div class="b3"></div>
+                </a>
+            </li>
+        </ul>
+        <h2>responcive sites</h2>
+        <ul class="list_res">
+            <li>
+                <a href="../web-sites/project_8/index.html" target="_blank">
+                    <div class="b4"></div>
+                </a>
+                <li>
+                    <a href="../web-sites/project_10/index.html" target="_blank">
+                        <div class="b5"></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="../web-sites/project_11/index.html" target="_blank">
+                        <div class="b6"></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="../web-sites/project_12/index.html" target="_blank">
+                        <div class="b7"></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="../web-sites/project_13/index.html" target="_blank">
+                        <div class="b8"></div>
+                    </a>
+                </li>
+                <li>
+                    <a>
+                        <div class="b9"></div>
+                    </a>
+                </li>
+        </ul>
+        <h2>desktop sites</h2>
+        <ul class="list">
+            <li>
+                <a href="../web-sites/project_1/index.html" target="_blank">
+                    <div class="b10"></div>
+                </a>
+            </li>
+            <li>
+                <a href="../web-sites/project_2/index.html" target="_blank">
+                    <div class="b11"></div>
+                </a>
+            </li>
+            <li>
+                <a href="../web-sites/project_5/index.html" target="_blank">
+                    <div class="b12"></div>
+                </a>
+            </li>
+            <li>
+                <a href="../web-sites/project_6/html/index.html" target="_blank">
+                    <div class="b13"></div>
+                </a>
+            </li>
+            <li>
+                <a href="../web-sites/project_7/html/Home.html" target="_blank">
+                    <div class="b14"></div>
+                </a>
+            </li>
+            <li>
+                <a>
+                    <div class="b15"></div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="connect" id="me">
+
+    </div>
+    <footer>
+        <div class="social">
+            <p>Copyright © 2018, All rights reserved</p>
+            <p>made with love by @vaxo.sv</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

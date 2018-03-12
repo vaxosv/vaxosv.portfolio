@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100%;
+    font-family: "Gilroy";
+}
+
+input[type=reset],
+input[type=submit],
+input[type=button],
+button {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Regular.woff2') format('woff2'), url('Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body~p {
+    cursor: pointer;
+}
+
+body {
+    max-width: 1400px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0 10px 0;
+    max-width: 85%;
+}
+
+nav ul {
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+    padding: 10px;
+}
+
+nav ul li:hover {
+    color: gray;
+}
+
+.about {
+    display: flex;
+    padding: 100px 0;
+    max-width: 100%;
+    justify-content: center;
+    padding: 0 15%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.img {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myimage {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    background-image: url("./src/n.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: crimson;
+}
+
+.text {
+    width: 60%;
+}
+
+.text h2 {
+    margin-bottom: 10px;
+}
+
+.text p {
+    margin-bottom: 20px;
+}
+
+.text button {
+    padding: 6px;
+    border-radius: 2px;
+}
+
+.jobs {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.jobs h2 {
+    padding-left: 13%;
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.jobs ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.jobs ul li{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    position: relative;
+    overflow: hidden;
+}
+
+.jobs ul li a div {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    position: relative;
+    overflow: hidden;
+}
+
+.jobs ul li a div:hover {
+    background-color: rgb(199, 199, 199);
+    cursor: pointer;
+    color: gray;
+}
+
+.connect {
+    width: 100%;
+    padding: 100px 0;
+}
+
+
+footer {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+footer .social {
+    text-align: center;
+}
+.jobs ul li{
+    
+}
+.jobs ul li a div {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    /* transform: scale(1) 500ms ease-in-out; */
+}
+
+.jobs ul li a div::before {
+    content: "";
+    width: 290px;
+    height: 600px;
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6ffffff', endColorstr='#00000000', GradientType=0);
+    opacity: 0.3;
+    position: absolute;
+    transform: translate(270px, -230px) rotate(-45deg) scale(1);
+    transition: transform 200ms ease-in-out;
+}
+
+.jobs ul li a div:hover:before {
+    transform: translate(-300px, 300px) rotate(-45deg);
+}
+
+.jobs ul li a div:hover {
+    opacity: 1;
+    transform: scale(1.08)
+}
+
+.up{
+    width: 30px;
+    height: 30px;
+    background-image: url("./src/arr.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: fixed;
+    top: calc(100vh - 50px);
+    right: 10vw;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .about {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about .text {
+        margin-top: 20px;
+        padding-right: 0px;
+    }
+    .img{
+        max-width: 100%;
+    } 
+    .text{
+        max-width: 100%;
+        padding: 0px;
+    }
+
+}
+
+.b1{
+    background-image: url("./src/Screenshot_1.png")
+}
+.b2{
+    background-image: url("./src/Screenshot_2.png")
+}
+.b3{
+    background-image: url("./src/wip1.png")
+}
+.b4{
+    background-image: url("./src/Screenshot_3.png")
+}
+.b5{
+    background-image: url("./src/Screenshot_4.png")
+}
+.b6{
+    background-image: url("./src/Screenshot_5.png")
+}
+.b7{
+    background-image: url("./src/Screenshot_6.png")
+}
+.b8{
+    background-image: url("./src/Screenshot_7.png")
+}
+.b9{
+    background-image: url("./src/wip1.png")
+}
+.b10{
+    background-image: url("./src/Screenshot_8.png")
+}
+.b11{
+    background-image: url("./src/Screenshot_9.png")
+}
+.b12{
+    background-image: url("./src/Screenshot_10.png")
+}
+.b13{
+    background-image: url("./src/Screenshot_11.png")
+}
+.b14{
+    background-image: url("./src/Screenshot_12.png")
+}
+.b15{
+    background-image: url("./src/wip1.png")
+}

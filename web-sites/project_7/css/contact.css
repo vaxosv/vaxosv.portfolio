@@ -1,0 +1,160 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+/*////////////// menu //////////////*/
+
+
+
+
+body{
+	display: flex;
+}
+.nav_bar{
+	background-color: #242b2e;
+	color: white;
+	text-align: right;
+	width: 300px;
+	display: block;
+	z-index: 4;
+}
+.main_h1{
+	width: 100%;
+	font-size: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	background-color: white;
+	color: black;
+}
+.menu_ul li{
+	list-style: none;
+	height: 60px;
+	line-height: 3.6;
+	padding-right: 20px;;
+}
+.menu_ul li:hover{
+	background-color: #24b0ae;
+}
+
+.filter h2{
+	font-size: 19px;
+	font-weight: 500;
+	padding-right: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #24b0ae;;
+	border-top: 1px solid #202426;
+}
+.filter_ul{
+	margin-bottom: 55px;
+	border-bottom: 1px solid #202426;
+}
+.filter_ul li{
+	list-style: none;
+	height: 25px;
+	line-height: 1.6;
+	padding-right: 20px;
+	color: #444a4c;
+}
+.filter_ul li:hover{
+	color: white;
+}
+.copyright{
+	padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.body{
+	width: 80%;
+	background-color: gray;
+}
+
+
+/*////////////// menu //////////////*/
+
+
+/*///////////// body ///////////////*/
+
+
+
+.absolute{
+	width: 780px;
+	height: 400px;
+	background-color: white;
+	position: absolute;
+	top: 20px;
+	left: 330px;
+}
+.absolute h2{
+	padding-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.absolute p {
+	margin-bottom: 30px;
+	line-height: 1.4;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
+.leave_contaner{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.leave_contaner_left{
+	width: 340px;
+}
+.leave_contaner_right{
+	width: 360px;
+}
+input{
+	width: 100%;
+	margin-top: 10px;
+	outline: none;
+	height: 50px;
+	padding-left: 10px;
+}
+
+
+.leave_contaner_right{
+	margin-left: 20px;
+}
+.leave_contaner_right textarea{
+	resize:  none;
+	margin-top: 10px; 
+	width: 100%;
+	height: 115px;
+	outline: none;
+	display: block;
+}
+.leave_contaner_right button{
+	width: 100%;
+ 	height: 54px;
+ 	background-color: green;
+ 	margin-top: 6px;
+ 	border: none;
+ 	display: block;
+}
+
+    a {
+    	color: inherit;
+    	text-decoration: none;
+    }

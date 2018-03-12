@@ -1,0 +1,272 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	max-width: 1260px;
+	margin: 0 auto;
+}
+
+
+.top{
+	padding: 0 10%;
+	background-repeat: inherit;
+	background: rgb(30,87,153);
+	background: repeating-linear-gradient(135deg, rgba(125,185,232,1) 10%, rgb(128, 204, 255) 20%);
+	padding-bottom: 430px;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 60px;
+
+}
+.logo{
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	border-bottom: 4px #0da9e5 solid;
+	box-shadow: 12px 14px #27b1e6;
+}
+.logo h3{
+	color: #0da9e5;
+	font-size: 50px;
+	font-style: italic;
+	padding-left: 43px;
+}
+.menu{
+	font-size: 30px;
+	margin-top: 20px;
+	color: white;
+}
+
+
+
+.galery{
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	color: white;
+}
+.galery_phone{
+	position: absolute;
+	left: 70px;
+	bottom: -433px;
+
+}
+.galery_text{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.galery_text_button{
+	display: flex;
+	width: 170px;
+	height: 60px;
+	border: solid 2px white;
+	border-radius: 5%;
+	align-items: center;
+	justify-content: space-around;
+}
+.galery_text h3{
+	margin-bottom: 50px;
+}
+.galery_text > p{
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
+.mid_1{
+	width: 100%;
+	background-color: #e9e9e9;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 100px;
+}
+.mid_1_text{
+	width: 51%;
+	padding-left: 150px;
+	padding-right: 100px;;
+}
+.mid_1_text h3{
+	padding-bottom: 30px;
+}
+.mid_1_text_1{
+	padding-bottom: 20px;
+}
+.mid_1_text_2{
+	margin-bottom: 40px;
+	padding-left: 20px;
+	border-left: 7px solid #4eacdd;
+}
+.mid_1_image_vontaner{
+	width: 30%;
+	justify-content: flex-end;
+	display: flex;
+	align-items: end;;
+}
+.mid_1_image_vontaner img{
+	width: 100%;
+	height: 100%;
+}
+.mid_1_text_button{
+	display: flex;
+	width: 160px;
+	height: 60px;
+	align-items: center;
+	border: 2px #14af8f solid;
+	justify-content: space-around;
+}
+
+
+
+
+
+
+
+.mid_2{
+	display: flex;
+	margin-top: 100px;
+}
+.mid_2_text{
+	width: 56%;
+
+}
+.mid_2_image_contaner{
+	padding-top: 70px;
+	flex: auto;
+	width: 80%; 
+}
+.mid_2_image_contaner img{
+	position: relative;
+	top: 4px;
+	width: 100%;
+}
+.mid_2_text > *{
+	position: relative;
+	left: -100px;
+}
+.mid_2_text h3{
+	margin-bottom: 20px;
+}
+.mid_2_text > p{
+	margin-bottom: 30px;
+}
+.mid_2_text_button{
+	display: flex;
+	width: 220px;
+	height: 50px;
+	border: solid 2px #ea4c89;
+	border-radius: 5%;
+	justify-content: space-around;
+	align-items: center;
+	color: #ea4c89;
+}
+
+
+
+
+
+
+
+.mid_3{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+	background: rgb(19,195,173);
+	background: repeating-linear-gradient(135deg, rgba(19,195,173,1) 10%, rgba(16,163,116,1) 20%);
+}
+.mid_3 p{
+	font-size: 17px;
+}
+.mid_3 h3{
+	margin-bottom: 50px;
+}
+.mid_3_button{
+	display: flex;
+	width: 200px;
+	justify-content: space-around;
+	height: 60px;
+	border: 2px white solid;
+	align-items: center;
+}
+
+
+.footer{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 200px;
+	background-color: #eaeaea;
+}
+.footer_icons{
+	font-size: 40px;
+	width: 300px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+.footer_icons i{
+	width: 55px;
+	height: 55px;
+	border: 2px solid #727272;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #727272;
+}
+.footer_connect_us{
+	display:flex;
+	margin-bottom: 200px;
+	width: 460px;
+	justify-content: space-around;
+	color: #727272;
+	position: relative;
+}
+.footer_connect_us i{
+	position: absolute;
+	right: 40px;
+	top: 7px;
+}
+.footer_connect_us p{
+	margin-top: 5px;
+	font-size: 16px;
+}
+.footer_connect_us input{
+	outline: none;
+	border: none;
+	border-radius: 10%;
+	height: 30px;
+	padding-left: 15px;
+}
+
+
+
+.end{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+.end i{
+	position: absolute;
+	right: 10px;
+}
+
+
+
+
+

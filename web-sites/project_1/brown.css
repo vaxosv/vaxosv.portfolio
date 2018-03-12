@@ -1,0 +1,256 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.clear{
+	clear: both;
+}
+body{
+	background-color: #362914;
+}
+.bg_image{
+	background-image: url(images/textur.png);
+	height: 500px;
+	position: absolute;
+	z-index: -5;
+	right: 0px;
+	min-width: 240vh;
+	background-size: cover
+}
+.header{
+	padding-top: 30px;
+}
+p{
+	
+}
+ul{
+	float: right;
+}
+ul li{
+	float: left;
+	position: relative;
+	top: -60px;
+	list-style-type: none;
+	margin-right: 23px;
+	color: #af9671;
+	font-size: 18px;
+	font-family: arial;
+
+}
+.about{
+	margin-top: 30px;
+}
+a{
+	color: #af9671;
+	text-decoration: none;
+}
+#top_1{
+	background: -webkit-linear-gradient(#bab89d, #ceccb3);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.top{
+	width: 1100px;
+	height: 500px;
+	margin: auto;
+}
+.text, .text_2{
+	margin-top: 50px;
+}
+.text{
+	width: 500px;
+	float: left;
+	font-size: 14px;
+
+}
+.text_2{
+	width: 500px;
+	float: left;
+	font-size: 14px;
+	
+	padding-left: 60px;
+}
+.text_2, .text{
+	color: #bebca5;
+	font-family: georgia;
+	font-size: 14px;
+}
+.comp{
+	float: left;
+	margin-right: 20px;
+	width: 150px;
+}
+.loren{
+	position: relative;
+	top: -30px;
+}
+span{
+	position: relative;
+	top: 20px;
+}
+h1{
+	font-family: arial;
+	color: #ba7f32;
+}
+.span a:link{
+	color: #996829;
+}
+.top::before{
+	content: "";
+	position: absolute;
+	left: 0px;
+	background: -moz-linear-gradient(left,  rgba(54,41,20,1) 0%, rgba(255,255,255,0) 100%);
+	background: -webkit-linear-gradient(left,  rgba(54,41,20,1) 0%,rgba(255,255,255,0) 100%);
+	background: linear-gradient(to right,  rgba(54,41,20,1) 0%,rgba(255,255,255,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#362914', endColorstr='#00ffffff',GradientType=1 );
+	width: 250px;
+	height: 100%;
+	z-index: -4;
+}
+.top::after{
+	content: "";
+	position: absolute;
+	right: 0px;
+	background: -moz-linear-gradient(right,  rgba(54,41,20,1) 0%, rgba(255,255,255,0) 100%);
+	background: -webkit-linear-gradient(right,  rgba(54,41,20,1) 0%,rgba(255,255,255,0) 100%);
+	background: linear-gradient(270deg,  rgba(54,41,20,1) 0%,rgba(255,255,255,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#362914', endColorstr='#00ffffff',GradientType=1 );
+	width: 250px;
+	height: 100%;
+	top: 0px;
+	z-index: -4;
+}
+.my_worck{
+	background-color: #201b0e;
+	width: 100%;
+	height: 810px;
+	background-size: cover;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-width: 2px;
+	border-color: #594522;
+}
+.mid_colider{
+	width: 1100px;
+	height: 780px;
+	margin: auto;
+	margin-top: 40px;
+}
+#my{
+	font-family: arial;
+	color: #ba7f32;
+	
+	margin-top: 10px;
+}
+.box_1, .box_2, .box_3, .box_4, .box_5, .box_6, .box_7, .box_8, .box_9{
+	width: 300px;
+	height: 210px;
+	float: left;
+	padding: 0px;
+	margin-top: 20px;
+}
+.box_2, .box_3, .box_5, .box_6, .box_8, .box_9{
+	margin-left: 70px;
+}
+ .img_midd{
+ 	width: 100%;
+ }
+ .qve{
+ 	font-family: georgia;
+ 	color: #af9671;
+ }
+ .qvemot{
+ 	font-family: georgia;
+ 	color: #cfcdb4;
+ }
+ .info{
+ 	width: 1100px;
+ 	height: 550px;
+ 	margin: auto;
+ 	margin-top: 80px;
+
+ }
+ .qve_info_1, .qve_info_2, .qve_info_3{
+ 	width: 300px;
+ 	height: 430px;
+ 	float: left;
+ 	
+ 	font-family: georgia;
+ }
+ .qve_info_1{
+ 	
+ }
+ .qve_info_2{
+ 	margin-left: 70px;
+ }
+ .qve_info_3{
+ 	margin-left: 70px;
+ }
+ .return_to_top{
+ 	position: relative;
+ 	top: 70px;
+ }
+ .art{
+ 	float: left;
+ }
+ .tw{
+ 	float: left;
+ }
+ .mail{
+ 	float: left;
+ }
+ h2{
+ 	color: #af9671;
+ }
+ h4{
+ 	color: #af9671;
+ }
+ .info .qve_info_1 p, .info .qve_info_2 p, .info .qve_info_3 p{
+ 	color: #cfcdb4;
+ }
+ .mai{
+ 	color: #af782f;
+ }
+ #ff{
+	color: #c5ab85;
+	
+}
+.info .qve_info_3 p a:link{
+	color: #ea9f3e;
+}
+.return_to_top a{
+	color: #ea9f3e;
+}
+.small_icons{
+	width: 30px;
+	height: 150px;
+	float: left;
+}
+.small_icons_1{
+	margin-top: 10px;
+}
+.agwera{
+	float: left;
+	margin-left: 10px;
+
+}
+.small_icons_text{
+	line-height: 45px;
+	color: #a8906c;
+}
+.footer{
+	width: 100%;
+	height: 90px;
+	background-color: #201b0e;
+	border-top-style: solid;;
+	border-width: 2px;
+	border-top-color: #594522;
+}
+.Copyright{
+	margin: auto;
+	width: 1100px;
+	line-height: 70px;
+}
+.Copyright_1{
+	 color: wheat;
+}

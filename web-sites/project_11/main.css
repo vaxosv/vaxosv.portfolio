@@ -1,0 +1,315 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body{
+	max-width: 1260px;
+	margin: 0 auto;
+}
+
+
+.header{
+	max-width: 1024px;
+	padding-top: 40px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 20px;
+}
+.logo{
+	position: relative;
+	display: flex;
+}
+.m_logo{
+	font-size: 55px;
+	color: white;
+}
+.foni{
+	position: absolute;
+	top: 4px;
+	z-index: -1;
+}
+.ini_logo{
+	margin-top: 4px;
+	font-size: 50px;
+	margin-left: 6px;
+}
+
+
+.logo_size{
+	width: 50px;
+	height: 10px;
+}
+.gredient_1{
+	background-color: #42eee3;
+}
+.gredient_2{
+	background-color: #2ee2d6
+}
+.gredient_3{
+	background-color: #1fd0c4
+}
+.gredient_4{
+	background-color: #17c0b5
+}
+.gredient_5{
+	background-color: #0eb0a5
+}
+.gredient_6{
+	background-color: #0aa096
+}
+
+
+
+.nav_cintaner{
+	display: flex;
+	flex-direction:column;
+}
+.nav{
+	display: flex;
+	list-style: none;
+	margin-top: 23px;
+}
+.nav li{
+	
+}
+.line{
+	width: 1px;
+	height: 20px;
+	background-color: #616161;
+	margin-right: 10px;
+	margin-left: 9px;
+}
+#chek{
+	display: none;
+}
+label{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+.galery{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	background-image: url(images/Untitled-4.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 520px;
+	width: 100%;
+}
+.pone_contaner{
+	width: 50%;
+	flex: auto;
+	position: relative;
+	margin-left: px;
+}
+.pone_contaner img{
+	position: absolute;
+	height: auto;
+	width: 42%;
+	left: 46%;
+	top: 10%;
+}
+
+
+
+.galery_midd_text{
+	color: #a9e2dd;
+	margin-top: 150px;
+	width: 50%;
+	font-size: 29px;;
+}
+.horse i{
+	font-size: 72px;
+	margin-right: 16px;
+}
+.horse{
+	display: flex;
+	margin-bottom: 60px;
+}
+
+.my{
+	margin-bottom: 40px;
+}
+
+.store{
+	display: flex;
+}
+
+
+
+.responcive_logos{
+	display: flex;
+	font-size: 70px;
+	color: #8ad0ce;
+	width: 28%;
+	position: absolute;
+	right: 0px;
+}
+.responcive_logos div{
+	width: 120px;
+	height: 120px;
+}
+.responcive_logos div i{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+.desktop{
+	background-color: #05938f;
+}
+.tablet{
+	background-color: #038587;
+}
+.mobile{
+	background-color: #027e83;
+}
+
+
+
+
+
+
+
+
+
+.mid_1{
+	text-align: center;
+}
+
+.mid_1 h3{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.mid_2_logo{
+	margin-top: 40px;
+}
+.mid_2{
+	max-width: 100%;
+}
+#qve{
+	display: none;
+}
+
+.mid_2_menu{
+	display: flex;
+}
+.mid_2_menu li{
+	width: 210px;
+	height: 170px;
+	color: white;
+	font-size: 120px;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgb(29,160,170);
+	background: -moz-linear-gradient(-45deg, rgba(29,160,170,1) 0%, rgba(125,185,232,1) 100%);
+	background: -webkit-linear-gradient(-45deg, rgba(29,160,170,1) 0%,rgba(125,185,232,1) 100%);
+	background: linear-gradient(135deg, rgba(29,160,170,1) 0%,rgba(125,185,232,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1da0aa', endColorstr='#7db9e8',GradientType=1 );
+}
+.mid_2_2{
+	display: flex;
+	background: linear-gradient(135deg, rgba(1,100,108,1) 0%,rgba(73,202,167,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01646c', endColorstr='#49caa7',GradientType=1 );
+	padding-top: 130px;
+	padding-bottom: 100px;
+}
+.image_holder{
+	width: 70%;
+	justify-content: space-around;
+	flex: auto;
+	margin-left: 11%;
+	margin-right: -1%;
+}
+.mid_2_2 img{
+	width: 100%;
+	height: auto; 
+}
+.mid_2_text{
+	width: 65%;
+}
+
+.mid_2_text h3{
+	color: #def0ef;
+	margin-bottom: 30px;
+}
+
+.mid_2_text p{
+	margin-bottom: 20px;
+	color: #adddda;
+}
+
+.mid_2_text_button{
+	display: flex;
+}
+.mid_2_text_button_1{
+	color: white; margin-right: 20px;
+}
+
+
+
+
+
+
+
+.mid_3{
+	max-width: 100%;
+	display: flex;
+	margin: 0 auto;
+	border-bottom: solid #dedede 1px;
+}
+.mid_3_left{
+	width: 60%;
+}
+.mid_3_left h3{
+	font-size: 180px;
+	text-align: center;
+	color: #49d7b0;
+	margin-bottom: 22px;
+}
+.mid_3_left p {
+	font-size: 120px;
+	font-weight: 100;
+	text-align: center;
+	color: #37986c;
+	margin-bottom: 54px;
+	vmax: 10vw;
+}
+.mid_3_right{
+	width: 40%;
+	display: flex;
+	justify-content: center;
+}
+.mid_3_right{
+	background-color: #49d7b0;
+}
+.mid_3_right i{
+	font-size: 250px;;
+	color: white;
+	margin-top: 150px;
+}
+
+
+
+.footer{
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	font-size: 15px;
+	color: #968f8f;
+}
