@@ -168,8 +168,14 @@ nav ul li:hover {
 .connect {
     width: 100%;
     padding: 100px 0;
+    display: flex;
+    justify-content: center
 }
-
+.icons{
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+}
 
 footer {
     margin: 0 auto;
@@ -258,37 +264,37 @@ footer .social {
     background-image: url("./src/wip1.png")
 }
 .b4{
-    background-image: url("./src/Screenshot_3.png")
+    background-image: url("./src/Screenshot_8.png")
 }
 .b5{
-    background-image: url("./src/Screenshot_4.png")
+    background-image: url("./src/Screenshot_9.png")
 }
 .b6{
-    background-image: url("./src/Screenshot_5.png")
+    background-image: url("./src/Screenshot_10.png")
 }
 .b7{
-    background-image: url("./src/Screenshot_6.png")
+    background-image: url("./src/Screenshot_11.png")
 }
 .b8{
-    background-image: url("./src/Screenshot_7.png")
+    background-image: url("./src/Screenshot_12.png")
 }
 .b9{
     background-image: url("./src/wip1.png")
 }
 .b10{
-    background-image: url("./src/Screenshot_8.png")
+    background-image: url("./src/Screenshot_3.png")
 }
 .b11{
-    background-image: url("./src/Screenshot_9.png")
+    background-image: url("./src/Screenshot_4.png")
 }
 .b12{
-    background-image: url("./src/Screenshot_10.png")
+    background-image: url("./src/Screenshot_5.png")
 }
 .b13{
-    background-image: url("./src/Screenshot_11.png")
+    background-image: url("./src/Screenshot_6.png")
 }
 .b14{
-    background-image: url("./src/Screenshot_12.png")
+    background-image: url("./src/Screenshot_7.png")
 }
 .b15{
     background-image: url("./src/wip1.png")
