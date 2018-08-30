@@ -1,1 +1,1 @@
-https://vaxosv.github.io/vaxosv.portfolio.github.io/
+https://vaxosv.github.io/vaxosv.portfolio/
